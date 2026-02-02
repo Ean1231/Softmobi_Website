@@ -2462,6 +2462,7 @@ responsive
   background: linear-gradient(105deg, #8e3cb4, #ff4fd8);
 }
 
+.gradient-button { position: relative; z-index: 5; }
 
 
 #service-popup-modal .close.service-popup-close-btn {

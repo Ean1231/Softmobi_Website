@@ -1104,5 +1104,12 @@ popupContent.html(content);
     });
   </script>
 
+<script>
+  window.addEventListener('load', function () {
+    const preloader = document.getElementById('js-preloader');
+    if (preloader) preloader.classList.add('loaded');
+  });
+</script>
+
 </body>
 </html>
